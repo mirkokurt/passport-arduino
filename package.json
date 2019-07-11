@@ -1,0 +1,31 @@
+{
+  "name": "passport-arduino-cloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mirkokurt/passport-arduino-cloud.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mirkokurt/passport-arduino-cloud/issues"
+  },
+  "homepage": "https://github.com/mirkokurt/passport-arduino-cloud#readme",
+  "dependencies": {
+    "arduino-iot-js": "^0.4.5",
+    "babel-polyfill": "^6.26.0",
+    "node-fetch": "^2.6.0",
+    "ws": "^7.1.0",
+	"base64url": "3.x.x",
+    "uid2": "0.0.x",
+    "utils-merge": "1.x.x"
+  }
+}
